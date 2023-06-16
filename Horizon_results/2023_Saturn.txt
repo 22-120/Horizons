@@ -1,0 +1,365 @@
+*******************************************************************************
+ Revised: January 26, 2022             Saturn                               699
+ 
+ PHYSICAL DATA:
+  Mass x10^26 (kg)      = 5.6834          Density (g/cm^3)       =  0.687+-.001
+  Equat. radius (1 bar) = 60268+-4 km     Polar radius (km)      = 54364+-10
+  Vol. Mean Radius (km) = 58232+-6        Flattening             =  0.09796
+  Geometric Albedo      = 0.47            Rocky core mass (Mc/M) =  0.1027
+  Sid. rot. period (III)= 10h 39m 22.4s   Sid. rot. rate (rad/s) =  0.000163785 
+  Mean solar day, hrs   =~10.656         
+  GM (km^3/s^2)         = 37931206.234    GM 1-sigma (km^3/s^2)  = +- 98
+  Equ. grav, ge (m/s^2) = 10.44           Pol. grav, gp (m/s^2)  = 12.14+-0.01
+  Vis. magnitude V(1,0) = -8.88          
+  Vis. mag. (opposition)= +0.67           Obliquity to orbit     = 26.73 deg
+  Sidereal orbit period = 29.447498 yr    Sidereal orbit period  = 10755.698 d
+  Mean daily motion     = 0.0334979 deg/d Mean orbit velocity    =  9.68 km/s
+  Atmos. temp. (1 bar)  = 134+-4 K        Escape speed, km/s    =  35.5          
+  Aroche(ice)/Rp        =  2.71           Hill's sphere rad. Rp  = 1100
+                                 Perihelion  Aphelion    Mean
+  Solar Constant (W/m^2)         16.8        13.6        15.1
+  Maximum Planetary IR (W/m^2)    4.7         4.5         4.6
+  Minimum Planetary IR (W/m^2)    4.7         4.5         4.6
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Thu May 18 21:44:02 2023 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: Saturn (699)                    {source: sat441l}
+Center body name: Earth (399)                     {source: DE441}
+Center-site name: GEOCENTRIC
+*******************************************************************************
+Start time      : A.D. 2023-Jan-01 00:00:00.0000 UT      
+Stop  time      : A.D. 2023-May-18 00:00:00.0000 UT      
+Step-size       : 1440 minutes
+*******************************************************************************
+Target pole/equ : IAU_SATURN                      {West-longitude positive}
+Target radii    : 60268.0, 60268.0, 54364.0 km    {Equator_a, b, pole_c}       
+Center geodetic : 0.0, 0.0, -6378.137             {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : ITRF93                          {East-longitude positive}
+Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}       
+Target primary  : Sun
+Vis. interferer : MOON (R_eq= 1737.400) km        {source: DE441}
+Rel. light bend : Sun                             {source: DE441}
+Rel. lght bnd GM: 1.3271E+11 km^3/s^2                                          
+Atmos refraction: NO (AIRLESS)
+RA format       : HMS
+Time format     : CAL 
+Calendar mode   : Mixed Julian/Gregorian
+EOP file        : eop.230517.p230810                                           
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2023-MAY-17. PREDICTS-> 2023-AUG-09
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s 
+Table cut-offs 1: Elevation (-90.0deg=NO ),Airmass (>38.000=NO), Daylight (NO )
+Table cut-offs 2: Solar elongation (  0.0,180.0=NO ),Local Hour Angle( 0.0=NO )
+Table cut-offs 3: RA/DEC angular rate (     0.0=NO )                           
+******************************************************************************************************************************************************************************
+ Date__(UT)__HR:MN     R.A._____(ICRF)_____DEC    APmag   S-brt             delta      deldot     S-O-T /r     S-T-O  Sky_motion  Sky_mot_PA  RelVel-ANG  Lun_Sky_Brt  sky_SNR
+******************************************************************************************************************************************************************************
+$$SOE
+ 2023-Jan-01 00:00     21 39 32.49 -15 18 58.6    0.860   6.577  10.5424843115129  19.2202628   42.1499 /T    3.8494   0.2494255   70.778688   31.157417         n.a.     n.a.
+ 2023-Jan-02 00:00     21 39 56.05 -15 17 00.3    0.861   6.576  10.5534852708237  18.8742548   41.2316 /T    3.7807   0.2516453   70.770492   30.449911         n.a.     n.a.
+ 2023-Jan-03 00:00     21 40 19.80 -15 15 00.8    0.863   6.575  10.5642851744059  18.5241046   40.3142 /T    3.7112   0.2538159   70.761918   29.745379         n.a.     n.a.
+ 2023-Jan-04 00:00     21 40 43.75 -15 13 00.3    0.864   6.574  10.5748817238933  18.1700367   39.3977 /T    3.6409   0.2559392   70.753023   29.043739         n.a.     n.a.
+ 2023-Jan-05 00:00     21 41 07.90 -15 10 58.8    0.865   6.573  10.5852726476916  17.8120986   38.4822 /T    3.5697   0.2580148   70.743721   28.344892         n.a.     n.a.
+ 2023-Jan-06 00:00     21 41 32.23 -15 08 56.2    0.866   6.572  10.5954557867600  17.4504818   37.5675 /T    3.4977   0.2600447   70.734085   27.648746         n.a.     n.a.
+ 2023-Jan-07 00:00     21 41 56.75 -15 06 52.6    0.867   6.571  10.6054289804162  17.0851050   36.6537 /T    3.4249   0.2620287   70.724127   26.955012         n.a.     n.a.
+ 2023-Jan-08 00:00     21 42 21.44 -15 04 48.0    0.868   6.570  10.6151900976845  16.7160914   35.7407 /T    3.3513   0.2639672   70.713799   26.263660         n.a.     n.a.
+ 2023-Jan-09 00:00     21 42 46.31 -15 02 42.5    0.869   6.569  10.6247370922316  16.3436518   34.8286 /T    3.2769   0.2658610   70.703094   25.574721         n.a.     n.a.
+ 2023-Jan-10 00:00     21 43 11.35 -15 00 36.0    0.869   6.568  10.6340679643857  15.9676380   33.9172 /T    3.2018   0.2677118   70.692244   24.887694         n.a.     n.a.
+ 2023-Jan-11 00:00     21 43 36.55 -14 58 28.5    0.870   6.567  10.6431806351052  15.5880813   33.0067 /T    3.1260   0.2695189   70.681173   24.202513         n.a.     n.a.
+ 2023-Jan-12 00:00     21 44 01.91 -14 56 20.1    0.871   6.566  10.6520730578687  15.2048875   32.0969 /T    3.0494   0.2712836   70.670054   23.518794         n.a.     n.a.
+ 2023-Jan-13 00:00     21 44 27.44 -14 54 10.9    0.871   6.565  10.6607431023405  14.8180291   31.1879 /T    2.9722   0.2730047   70.658815   22.836415         n.a.     n.a.
+ 2023-Jan-14 00:00     21 44 53.11 -14 52 00.7    0.872   6.564  10.6691886482950  14.4274658   30.2796 /T    2.8943   0.2746825   70.647515   22.155144         n.a.     n.a.
+ 2023-Jan-15 00:00     21 45 18.94 -14 49 49.7    0.872   6.563  10.6774075397368  14.0331002   29.3720 /T    2.8157   0.2763170   70.636239   21.474674         n.a.     n.a.
+ 2023-Jan-16 00:00     21 45 44.91 -14 47 37.8    0.873   6.561  10.6853974979618  13.6346973   28.4652 /T    2.7365   0.2779058   70.624907   20.794668         n.a.     n.a.
+ 2023-Jan-17 00:00     21 46 11.02 -14 45 25.1    0.873   6.560  10.6931562543578  13.2324879   27.5591 /T    2.6567   0.2794477   70.613363   20.115360         n.a.     n.a.
+ 2023-Jan-18 00:00     21 46 37.27 -14 43 11.7    0.873   6.559  10.7006815845941  12.8263766   26.6538 /T    2.5763   0.2809413   70.601635   19.436506         n.a.     n.a.
+ 2023-Jan-19 00:00     21 47 03.65 -14 40 57.4    0.873   6.558  10.7079712883006  12.4165493   25.7491 /T    2.4953   0.2823849   70.589653   18.758268         n.a.     n.a.
+ 2023-Jan-20 00:00     21 47 30.15 -14 38 42.4    0.874   6.557  10.7150232400530  12.0030935   24.8452 /T    2.4137   0.2837769   70.577441   18.080659         n.a.     n.a.
+ 2023-Jan-21 00:00     21 47 56.77 -14 36 26.6    0.874   6.555  10.7218353953771  11.5861823   23.9421 /T    2.3316   0.2851154   70.565014   17.403814         n.a.     n.a.
+ 2023-Jan-22 00:00     21 48 23.52 -14 34 10.1    0.874   6.554  10.7284058465885  11.1662232   23.0397 /T    2.2490   0.2863976   70.552246   16.728223         n.a.     n.a.
+ 2023-Jan-23 00:00     21 48 50.37 -14 31 53.0    0.874   6.553  10.7347330039912  10.7436835   22.1381 /T    2.1659   0.2876249   70.539351   16.054239         n.a.     n.a.
+ 2023-Jan-24 00:00     21 49 17.33 -14 29 35.2    0.873   6.552  10.7408154234776  10.3188136   21.2374 /T    2.0823   0.2887961   70.526352   15.382031         n.a.     n.a.
+ 2023-Jan-25 00:00     21 49 44.38 -14 27 16.7    0.873   6.550  10.7466518979980   9.8920455   20.3375 /T    1.9983   0.2899124   70.513324   14.711922         n.a.     n.a.
+ 2023-Jan-26 00:00     21 50 11.54 -14 24 57.6    0.873   6.549  10.7522414119563   9.4636738   19.4384 /T    1.9139   0.2909749   70.500307   14.044049         n.a.     n.a.
+ 2023-Jan-27 00:00     21 50 38.78 -14 22 38.0    0.872   6.547  10.7575831151817   9.0339199   18.5403 /T    1.8290   0.2919854   70.487379   13.378427         n.a.     n.a.
+ 2023-Jan-28 00:00     21 51 06.11 -14 20 17.7    0.872   6.546  10.7626762817279   8.6030505   17.6431 /T    1.7438   0.2929459   70.474575   12.715141         n.a.     n.a.
+ 2023-Jan-29 00:00     21 51 33.51 -14 17 57.0    0.871   6.544  10.7675202324262   8.1708650   16.7468 /T    1.6582   0.2938586   70.462104   12.053626         n.a.     n.a.
+ 2023-Jan-30 00:00     21 52 01.00 -14 15 35.7    0.870   6.543  10.7721142081502   7.7374552   15.8514 /T    1.5724   0.2947228   70.449802   11.393849         n.a.     n.a.
+ 2023-Jan-31 00:00     21 52 28.56 -14 13 13.9    0.870   6.541  10.7764575318370   7.3028628   14.9571 /T    1.4862   0.2955399   70.437720   10.735634         n.a.     n.a.
+ 2023-Feb-01 00:00     21 52 56.18 -14 10 51.7    0.868   6.539  10.7805495206442   6.8671162   14.0638 /T    1.3997   0.2963101   70.425813   10.078832         n.a.     n.a.
+ 2023-Feb-02 00:00     21 53 23.87 -14 08 29.0    0.867   6.537  10.7843894985287   6.4301946   13.1715 /T    1.3130   0.2970335   70.414039   9.4232355         n.a.     n.a.
+ 2023-Feb-03 00:00     21 53 51.61 -14 06 05.9    0.866   6.535  10.7879768311524   5.9922021   12.2805 /T    1.2260   0.2977108   70.402389   8.7687924         n.a.     n.a.
+ 2023-Feb-04 00:00     21 54 19.41 -14 03 42.4    0.864   6.533  10.7913108628765   5.5530828   11.3908 /T    1.1389   0.2983407   70.390738   8.1152766         n.a.     n.a.
+ 2023-Feb-05 00:00     21 54 47.26 -14 01 18.5    0.862   6.530  10.7943910496283   5.1131857   10.5024 /T    1.0516   0.2989242   70.379005   7.4629903         n.a.     n.a.
+ 2023-Feb-06 00:00     21 55 15.15 -13 58 54.3    0.860   6.527  10.7972169289369   4.6724386    9.6158 /T    0.9642   0.2994621   70.367281   6.8116279         n.a.     n.a.
+ 2023-Feb-07 00:00     21 55 43.09 -13 56 29.7    0.857   6.524  10.7997880276332   4.2308929    8.7311 /T    0.8767   0.2999546   70.355546   6.1610885         n.a.     n.a.
+ 2023-Feb-08 00:00     21 56 11.06 -13 54 04.9    0.854   6.521  10.8021038950686   3.7886411    7.8488 /T    0.7892   0.3004014   70.343728   5.5113396         n.a.     n.a.
+ 2023-Feb-09 00:00     21 56 39.06 -13 51 39.7    0.850   6.517  10.8041641524318   3.3457152    6.9696 /T    0.7018   0.3008035   70.331909   4.8622376         n.a.     n.a.
+ 2023-Feb-10 00:00     21 57 07.10 -13 49 14.2    0.846   6.512  10.8059684150766   2.9022142    6.0947 /T    0.6147   0.3011603   70.320012   4.2137660         n.a.     n.a.
+ 2023-Feb-11 00:00     21 57 35.15 -13 46 48.6    0.841   6.507  10.8075163945334   2.4581626    5.2258 /T    0.5279   0.3014737   70.308246   3.5657644         n.a.     n.a.
+ 2023-Feb-12 00:00     21 58 03.23 -13 44 22.7    0.835   6.501  10.8088076956913   2.0133853    4.3665 /T    0.4420   0.3017427   70.296597   2.9178313         n.a.     n.a.
+ 2023-Feb-13 00:00     21 58 31.32 -13 41 56.5    0.828   6.494  10.8098419162476   1.5679141    3.5232 /T    0.3574   0.3019669   70.285082   2.2698493         n.a.     n.a.
+ 2023-Feb-14 00:00     21 58 59.43 -13 39 30.2    0.820   6.486  10.8106186680749   1.1217877    2.7107 /T    0.2758   0.3021460   70.273751   1.6217062         n.a.     n.a.
+ 2023-Feb-15 00:00     21 59 27.54 -13 37 03.8    0.812   6.478  10.8111375246417   0.6748182    1.9667 /T    0.2006   0.3022794   70.262703   0.9729608         n.a.     n.a.
+ 2023-Feb-16 00:00     21 59 55.66 -13 34 37.2    0.805   6.471  10.8113980123105   0.2271078    1.4043 /T    0.1428   0.3023649   70.251881   0.3235710         n.a.     n.a.
+ 2023-Feb-17 00:00     22 00 23.77 -13 32 10.5    0.805   6.470  10.8113996791454  -0.2214689    1.2876 /T    0.1286   0.3024011   70.241374   -0.326866         n.a.     n.a.
+ 2023-Feb-18 00:00     22 00 51.88 -13 29 43.7    0.812   6.478  10.8111420908382  -0.6705961    1.7099 /L    0.1692   0.3023846   70.230995   -0.978023         n.a.     n.a.
+ 2023-Feb-19 00:00     22 01 19.98 -13 27 16.9    0.822   6.488  10.8106250308557  -1.1199449    2.4016 /L    0.2381   0.3023147   70.220786   -1.629642         n.a.     n.a.
+ 2023-Feb-20 00:00     22 01 48.07 -13 24 50.0    0.832   6.498  10.8098484609349  -1.5692185    3.1918 /L    0.3174   0.3021906   70.210823   -2.281551         n.a.     n.a.
+ 2023-Feb-21 00:00     22 02 16.13 -13 22 23.2    0.842   6.508  10.8088124947994  -2.0181130    4.0227 /L    0.4008   0.3020108   70.201043   -2.933558         n.a.     n.a.
+ 2023-Feb-22 00:00     22 02 44.17 -13 19 56.4    0.850   6.516  10.8075175312589  -2.4660698    4.8733 /L    0.4863   0.3017766   70.191468   -3.585079         n.a.     n.a.
+ 2023-Feb-23 00:00     22 03 12.17 -13 17 29.6    0.857   6.524  10.8059641661236  -2.9128469    5.7346 /L    0.5727   0.3014882   70.182072   -4.235988         n.a.     n.a.
+ 2023-Feb-24 00:00     22 03 40.15 -13 15 02.9    0.863   6.531  10.8041532264559  -3.3579952    6.6023 /L    0.6598   0.3011481   70.172884   -4.885827         n.a.     n.a.
+ 2023-Feb-25 00:00     22 04 08.08 -13 12 36.3    0.869   6.537  10.8020856762567  -3.8014524    7.4740 /L    0.7471   0.3007582   70.163994   -5.534684         n.a.     n.a.
+ 2023-Feb-26 00:00     22 04 35.96 -13 10 09.9    0.874   6.543  10.7997625213123  -4.2431313    8.3484 /L    0.8346   0.3003200   70.155399   -6.182607         n.a.     n.a.
+ 2023-Feb-27 00:00     22 05 03.80 -13 07 43.6    0.879   6.548  10.7971848344288  -4.6828039    9.2246 /L    0.9222   0.2998343   70.147014   -6.829441         n.a.     n.a.
+ 2023-Feb-28 00:00     22 05 31.59 -13 05 17.5    0.884   6.553  10.7943538067675  -5.1204822   10.1020 /L    1.0097   0.2993041   70.139053   -7.475318         n.a.     n.a.
+ 2023-Mar-01 00:00     22 05 59.31 -13 02 51.7    0.887   6.558  10.7912705544747  -5.5562050   10.9804 /L    1.0971   0.2987298   70.131478   -8.120456         n.a.     n.a.
+ 2023-Mar-02 00:00     22 06 26.98 -13 00 26.0    0.891   6.562  10.7879362145491  -5.9900296   11.8593 /L    1.1843   0.2981130   70.124423   -8.765054         n.a.     n.a.
+ 2023-Mar-03 00:00     22 06 54.58 -12 58 00.7    0.895   6.566  10.7843518269352  -6.4220787   12.7387 /L    1.2714   0.2974533   70.117828   -9.409463         n.a.     n.a.
+ 2023-Mar-04 00:00     22 07 22.11 -12 55 35.6    0.898   6.570  10.7805184246606  -6.8523429   13.6184 /L    1.3582   0.2967508   70.111658   -10.05382         n.a.     n.a.
+ 2023-Mar-05 00:00     22 07 49.57 -12 53 10.8    0.901   6.574  10.7764370708450  -7.2807318   14.4984 /L    1.4449   0.2960064   70.105924   -10.69814         n.a.     n.a.
+ 2023-Mar-06 00:00     22 08 16.96 -12 50 46.4    0.904   6.578  10.7721087747966  -7.7075007   15.3785 /L    1.5312   0.2952196   70.100644   -11.34293         n.a.     n.a.
+ 2023-Mar-07 00:00     22 08 44.26 -12 48 22.3    0.906   6.581  10.7675345074155  -8.1324707   16.2588 /L    1.6173   0.2943895   70.095634   -11.98815         n.a.     n.a.
+ 2023-Mar-08 00:00     22 09 11.48 -12 45 58.6    0.909   6.585  10.7627153107626  -8.5556830   17.1391 /L    1.7030   0.2935163   70.090920   -12.63400         n.a.     n.a.
+ 2023-Mar-09 00:00     22 09 38.61 -12 43 35.3    0.911   6.588  10.7576522333530  -8.9769936   18.0196 /L    1.7884   0.2925997   70.086408   -13.28045         n.a.     n.a.
+ 2023-Mar-10 00:00     22 10 05.65 -12 41 12.4    0.914   6.592  10.7523463805670  -9.3963758   18.9001 /L    1.8735   0.2916398   70.082115   -13.92762         n.a.     n.a.
+ 2023-Mar-11 00:00     22 10 32.60 -12 38 50.0    0.916   6.595  10.7467988721803  -9.8138640   19.7807 /L    1.9582   0.2906370   70.078114   -14.57570         n.a.     n.a.
+ 2023-Mar-12 00:00     22 10 59.44 -12 36 28.0    0.918   6.599  10.7410107735938 -10.2294610   20.6615 /L    2.0425   0.2895891   70.074266   -15.22494         n.a.     n.a.
+ 2023-Mar-13 00:00     22 11 26.18 -12 34 06.6    0.920   6.602  10.7349832788909 -10.6428895   21.5423 /L    2.1263   0.2884972   70.070642   -15.87510         n.a.     n.a.
+ 2023-Mar-14 00:00     22 11 52.81 -12 31 45.6    0.922   6.605  10.7287175989033 -11.0542476   22.4232 /L    2.2098   0.2873603   70.067316   -16.52650         n.a.     n.a.
+ 2023-Mar-15 00:00     22 12 19.33 -12 29 25.2    0.924   6.608  10.7222149703541 -11.4634316   23.3042 /L    2.2928   0.2861784   70.064370   -17.17918         n.a.     n.a.
+ 2023-Mar-16 00:00     22 12 45.74 -12 27 05.4    0.926   6.612  10.7154766518541 -11.8704036   24.1854 /L    2.3753   0.2849505   70.061870   -17.83332         n.a.     n.a.
+ 2023-Mar-17 00:00     22 13 12.03 -12 24 46.2    0.927   6.615  10.7085039373113 -12.2751236   25.0667 /L    2.4573   0.2836755   70.059908   -18.48908         n.a.     n.a.
+ 2023-Mar-18 00:00     22 13 38.19 -12 22 27.6    0.929   6.618  10.7012981860500 -12.6773106   25.9481 /L    2.5388   0.2823521   70.058467   -19.14636         n.a.     n.a.
+ 2023-Mar-19 00:00     22 14 04.22 -12 20 09.6    0.931   6.621  10.6938609070941 -13.0769285   26.8296 /L    2.6198   0.2809808   70.057831   -19.80525         n.a.     n.a.
+ 2023-Mar-20 00:00     22 14 30.12 -12 17 52.4    0.932   6.624  10.6861935944597 -13.4738253   27.7113 /L    2.7002   0.2795594   70.057906   -20.46588         n.a.     n.a.
+ 2023-Mar-21 00:00     22 14 55.88 -12 15 35.8    0.934   6.627  10.6782979199012 -13.8676840   28.5931 /L    2.7801   0.2780874   70.058705   -21.12804         n.a.     n.a.
+ 2023-Mar-22 00:00     22 15 21.50 -12 13 20.0    0.935   6.630  10.6701757299700 -14.2581695   29.4750 /L    2.8594   0.2765648   70.060194   -21.79148         n.a.     n.a.
+ 2023-Mar-23 00:00     22 15 46.98 -12 11 04.9    0.936   6.633  10.6618290484689 -14.6450333   30.3570 /L    2.9380   0.2749921   70.062352   -22.45602         n.a.     n.a.
+ 2023-Mar-24 00:00     22 16 12.30 -12 08 50.7    0.938   6.636  10.6532600792067 -15.0279168   31.2391 /L    3.0160   0.2733712   70.065179   -23.12126         n.a.     n.a.
+ 2023-Mar-25 00:00     22 16 37.47 -12 06 37.3    0.939   6.639  10.6444711018943 -15.4068772   32.1213 /L    3.0933   0.2717028   70.068660   -23.78740         n.a.     n.a.
+ 2023-Mar-26 00:00     22 17 02.48 -12 04 24.7    0.940   6.642  10.6354644815339 -15.7815449   33.0035 /L    3.1700   0.2699875   70.072627   -24.45408         n.a.     n.a.
+ 2023-Mar-27 00:00     22 17 27.32 -12 02 13.0    0.941   6.645  10.6262427381929 -16.1518312   33.8859 /L    3.2460   0.2682277   70.077167   -25.12121         n.a.     n.a.
+ 2023-Mar-28 00:00     22 17 52.00 -12 00 02.2    0.942   6.648  10.6168084203900 -16.5176828   34.7684 /L    3.3213   0.2664247   70.082315   -25.78875         n.a.     n.a.
+ 2023-Mar-29 00:00     22 18 16.51 -11 57 52.3    0.943   6.651  10.6071640794793 -16.8790806   35.6510 /L    3.3958   0.2645792   70.088028   -26.45683         n.a.     n.a.
+ 2023-Mar-30 00:00     22 18 40.84 -11 55 43.4    0.944   6.653  10.5973123266656 -17.2359768   36.5337 /L    3.4696   0.2626929   70.094428   -27.12538         n.a.     n.a.
+ 2023-Mar-31 00:00     22 19 05.00 -11 53 35.4    0.944   6.656  10.5872557355147 -17.5883639   37.4166 /L    3.5427   0.2607657   70.101422   -27.79456         n.a.     n.a.
+ 2023-Apr-01 00:00     22 19 28.97 -11 51 28.4    0.945   6.659  10.5769969796974 -17.9360945   38.2996 /L    3.6149   0.2588000   70.109192   -28.46412         n.a.     n.a.
+ 2023-Apr-02 00:00     22 19 52.76 -11 49 22.5    0.946   6.662  10.5665386675158 -18.2794204   39.1828 /L    3.6864   0.2567967   70.117855   -29.13446         n.a.     n.a.
+ 2023-Apr-03 00:00     22 20 16.36 -11 47 17.6    0.946   6.665  10.5558833192921 -18.6184458   40.0663 /L    3.7571   0.2547561   70.127434   -29.80583         n.a.     n.a.
+ 2023-Apr-04 00:00     22 20 39.77 -11 45 13.8    0.947   6.667  10.5450334120108 -18.9531546   40.9499 /L    3.8269   0.2526780   70.137883   -30.47836         n.a.     n.a.
+ 2023-Apr-05 00:00     22 21 02.99 -11 43 11.0    0.947   6.670  10.5339913950581 -19.2837489   41.8339 /L    3.8959   0.2505630   70.149304   -31.15239         n.a.     n.a.
+ 2023-Apr-06 00:00     22 21 26.00 -11 41 09.4    0.947   6.673  10.5227596305042 -19.6102077   42.7181 /L    3.9641   0.2484101   70.161570   -31.82814         n.a.     n.a.
+ 2023-Apr-07 00:00     22 21 48.82 -11 39 08.9    0.948   6.675  10.5113404805765 -19.9327196   43.6026 /L    4.0314   0.2462197   70.174818   -32.50593         n.a.     n.a.
+ 2023-Apr-08 00:00     22 22 11.43 -11 37 09.5    0.948   6.678  10.4997361883210 -20.2513051   44.4875 /L    4.0977   0.2439894   70.188831   -33.18618         n.a.     n.a.
+ 2023-Apr-09 00:00     22 22 33.83 -11 35 11.3    0.948   6.680  10.4879490570614 -20.5658520   45.3727 /L    4.1632   0.2417183   70.203566   -33.86899         n.a.     n.a.
+ 2023-Apr-10 00:00     22 22 56.02 -11 33 14.4    0.948   6.683  10.4759814607948 -20.8762561   46.2584 /L    4.2278   0.2394065   70.219114   -34.55438         n.a.     n.a.
+ 2023-Apr-11 00:00     22 23 18.00 -11 31 18.6    0.948   6.685  10.4638357601359 -21.1825937   47.1445 /L    4.2915   0.2370521   70.235487   -35.24279         n.a.     n.a.
+ 2023-Apr-12 00:00     22 23 39.75 -11 29 24.1    0.948   6.688  10.4515143856440 -21.4845810   48.0311 /L    4.3541   0.2346544   70.252694   -35.93412         n.a.     n.a.
+ 2023-Apr-13 00:00     22 24 01.29 -11 27 30.9    0.948   6.690  10.4390198451284 -21.7822112   48.9182 /L    4.4159   0.2322118   70.270809   -36.62870         n.a.     n.a.
+ 2023-Apr-14 00:00     22 24 22.59 -11 25 38.9    0.947   6.693  10.4263547717075 -22.0750769   49.8058 /L    4.4766   0.2297238   70.289855   -37.32629         n.a.     n.a.
+ 2023-Apr-15 00:00     22 24 43.66 -11 23 48.3    0.947   6.695  10.4135219796692 -22.3629759   50.6939 /L    4.5363   0.2271905   70.310064   -38.02679         n.a.     n.a.
+ 2023-Apr-16 00:00     22 25 04.50 -11 21 59.0    0.947   6.697  10.4005243825805 -22.6457760   51.5827 /L    4.5951   0.2246123   70.331646   -38.73021         n.a.     n.a.
+ 2023-Apr-17 00:00     22 25 25.10 -11 20 11.2    0.946   6.700  10.3873649785670 -22.9232001   52.4720 /L    4.6527   0.2219879   70.354569   -39.43654         n.a.     n.a.
+ 2023-Apr-18 00:00     22 25 45.46 -11 18 24.7    0.946   6.702  10.3740469959973 -23.1949418   53.3619 /L    4.7093   0.2193196   70.379144   -40.14533         n.a.     n.a.
+ 2023-Apr-19 00:00     22 26 05.57 -11 16 39.6    0.945   6.704  10.3605737254710 -23.4608838   54.2523 /L    4.7649   0.2166076   70.405408   -40.85664         n.a.     n.a.
+ 2023-Apr-20 00:00     22 26 25.42 -11 14 56.0    0.945   6.706  10.3469485906868 -23.7208479   55.1434 /L    4.8193   0.2138541   70.433570   -41.57015         n.a.     n.a.
+ 2023-Apr-21 00:00     22 26 45.03 -11 13 13.9    0.944   6.708  10.3331750277931 -23.9748628   56.0350 /L    4.8727   0.2110598   70.463657   -42.28601         n.a.     n.a.
+ 2023-Apr-22 00:00     22 27 04.37 -11 11 33.2    0.943   6.710  10.3192564938663 -24.2228627   56.9272 /L    4.9249   0.2082250   70.495595   -43.00428         n.a.     n.a.
+ 2023-Apr-23 00:00     22 27 23.46 -11 09 54.2    0.942   6.712  10.3051965314256 -24.4645796   57.8200 /L    4.9759   0.2053510   70.529298   -43.72468         n.a.     n.a.
+ 2023-Apr-24 00:00     22 27 42.28 -11 08 16.6    0.941   6.715  10.2909987472234 -24.7001650   58.7134 /L    5.0258   0.2024398   70.564960   -44.44730         n.a.     n.a.
+ 2023-Apr-25 00:00     22 28 00.83 -11 06 40.7    0.940   6.716  10.2766666926383 -24.9295115   59.6074 /L    5.0745   0.1994911   70.602404   -45.17224         n.a.     n.a.
+ 2023-Apr-26 00:00     22 28 19.11 -11 05 06.3    0.939   6.718  10.2622039866335 -25.1526232   60.5020 /L    5.1221   0.1965063   70.641738   -45.89949         n.a.     n.a.
+ 2023-Apr-27 00:00     22 28 37.12 -11 03 33.5    0.938   6.720  10.2476142428306 -25.3694041   61.3972 /L    5.1684   0.1934855   70.682880   -46.62910         n.a.     n.a.
+ 2023-Apr-28 00:00     22 28 54.84 -11 02 02.4    0.937   6.722  10.2329011407436 -25.5797761   62.2930 /L    5.2135   0.1904297   70.725899   -47.36103         n.a.     n.a.
+ 2023-Apr-29 00:00     22 29 12.29 -11 00 33.0    0.935   6.724  10.2180684190332 -25.7836864   63.1895 /L    5.2574   0.1873412   70.771066   -48.09506         n.a.     n.a.
+ 2023-Apr-30 00:00     22 29 29.46 -10 59 05.2    0.934   6.726  10.2031197366616 -25.9813143   64.0867 /L    5.3000   0.1842195   70.818387   -48.83162         n.a.     n.a.
+ 2023-May-01 00:00     22 29 46.33 -10 57 39.1    0.932   6.728  10.1880587950857 -26.1724247   64.9846 /L    5.3414   0.1810659   70.867934   -49.57046         n.a.     n.a.
+ 2023-May-02 00:00     22 30 02.92 -10 56 14.7    0.931   6.729  10.1728893232570 -26.3571503   65.8832 /L    5.3815   0.1778817   70.919975   -50.31167         n.a.     n.a.
+ 2023-May-03 00:00     22 30 19.22 -10 54 52.1    0.929   6.731  10.1576150142362 -26.5355044   66.7825 /L    5.4204   0.1746682   70.974754   -51.05522         n.a.     n.a.
+ 2023-May-04 00:00     22 30 35.22 -10 53 31.1    0.928   6.732  10.1422394957925 -26.7076410   67.6826 /L    5.4579   0.1714262   71.032510   -51.80133         n.a.     n.a.
+ 2023-May-05 00:00     22 30 50.93 -10 52 12.0    0.926   6.734  10.1267662981646 -26.8738214   68.5835 /L    5.4941   0.1681560   71.093568   -52.55034         n.a.     n.a.
+ 2023-May-06 00:00     22 31 06.34 -10 50 54.6    0.924   6.736  10.1111988171147 -27.0340943   69.4852 /L    5.5291   0.1648559   71.157862   -53.30274         n.a.     n.a.
+ 2023-May-07 00:00     22 31 21.44 -10 49 39.0    0.922   6.737  10.0955404830982 -27.1885168   70.3878 /L    5.5626   0.1615269   71.225898   -54.05858         n.a.     n.a.
+ 2023-May-08 00:00     22 31 36.24 -10 48 25.3    0.920   6.738  10.0797945888509 -27.3372864   71.2913 /L    5.5949   0.1581667   71.297795   -54.81857         n.a.     n.a.
+ 2023-May-09 00:00     22 31 50.74 -10 47 13.4    0.918   6.740  10.0639644142052 -27.4803720   72.1957 /L    5.6258   0.1547738   71.373780   -55.58314         n.a.     n.a.
+ 2023-May-10 00:00     22 32 04.92 -10 46 03.3    0.916   6.741  10.0480532787475 -27.6176168   73.1011 /L    5.6553   0.1513463   71.454055   -56.35260         n.a.     n.a.
+ 2023-May-11 00:00     22 32 18.79 -10 44 55.1    0.914   6.742  10.0320645963319 -27.7488754   74.0075 /L    5.6834   0.1478828   71.538925   -57.12726         n.a.     n.a.
+ 2023-May-12 00:00     22 32 32.34 -10 43 48.8    0.912   6.744  10.0160019395707 -27.8737210   74.9149 /L    5.7102   0.1443827   71.628735   -57.90702         n.a.     n.a.
+ 2023-May-13 00:00     22 32 45.58 -10 42 44.4    0.910   6.745  9.99986903581187 -27.9921320   75.8234 /L    5.7355   0.1408465   71.724188   -58.69202         n.a.     n.a.
+ 2023-May-14 00:00     22 32 58.49 -10 41 41.9    0.907   6.746  9.98366969337523 -28.1037145   76.7330 /L    5.7594   0.1372730   71.825473   -59.48234         n.a.     n.a.
+ 2023-May-15 00:00     22 33 11.07 -10 40 41.4    0.905   6.747  9.96740796410809 -28.2081215   77.6436 /L    5.7819   0.1336634   71.933206   -60.27772         n.a.     n.a.
+ 2023-May-16 00:00     22 33 23.32 -10 39 42.8    0.902   6.748  9.95108808217230 -28.3050627   78.5554 /L    5.8029   0.1300197   72.048117   -61.07782         n.a.     n.a.
+ 2023-May-17 00:00     22 33 35.24 -10 38 46.3    0.900   6.749  9.93471439980879 -28.3943721   79.4683 /L    5.8224   0.1263433   72.170881   -61.88251         n.a.     n.a.
+ 2023-May-18 00:00     22 33 46.83 -10 37 51.7    0.897   6.750  9.91829141284421 -28.4758299   80.3823 /L    5.8405   0.1226376   72.302506   -62.69125         n.a.     n.a.
+$$EOE
+******************************************************************************************************************************************************************************
+Column meaning:
+ 
+TIME
+
+  Times PRIOR to 1962 are UT1, a mean-solar time closely related to the
+prior but now-deprecated GMT. Times AFTER 1962 are in UTC, the current
+civil or "wall-clock" time-scale. UTC is kept within 0.9 seconds of UT1
+using integer leap-seconds for 1972 and later years.
+
+  Conversion from the internal Barycentric Dynamical Time (TDB) of solar
+system dynamics to the non-uniform civil UT time-scale requested for output
+has not been determined for UTC times after the next July or January 1st.
+Therefore, the last known leap-second is used as a constant over future
+intervals.
+
+  Time tags refer to the UT time-scale conversion from TDB on Earth
+regardless of observer location within the solar system, although clock
+rates may differ due to the local gravity field and no analog to "UT"
+may be defined for that location.
+
+  Any 'b' symbol in the 1st-column denotes a B.C. date. First-column blank
+(" ") denotes an A.D. date.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+  NOTE: "n.a." in output means quantity "not available" at the print-time.
+ 
+ 'R.A._____(ICRF)_____DEC' =
+  Astrometric right ascension and declination of the target center with
+respect to the observing site (coordinate origin) in the reference frame of
+the planetary ephemeris (ICRF). Compensated for down-leg light-time delay
+aberration.
+
+  Units: RA  in hours-minutes-seconds of time,    HH MM SS.ff{ffff}
+         DEC in degrees-minutes-seconds of arc,  sDD MN SC.f{ffff}
+ 
+ 'APmag   S-brt' =
+   Saturn's approximate apparent visual magnitude and surface brightness. The
+value includes the ring system when the solar phase angle of the observer is
+less than 6.5 degrees (typical when observed from Earth) AND effective ring
+inclination is less than 27 degrees. Otherwise, the value is that of the globe
+only (no rings).  An "n.a." will be output if outside the range of phase-angles
+for which the model is valid.
+
+   For Earth-based observers, the estimated dimming due to atmospheric
+absorption (extinction) is available as a separate, requestable quantity.
+
+   Surface brightness is the average airless visual magnitude of a
+square-arcsecond of the illuminated portion of the apparent disk.
+
+ MAGNITUDES & MAGNITUDES PER SQUARE ARCSECOND
+ 
+ 'delta      deldot' =
+   Apparent range ("delta", light-time aberrated) and range-rate ("delta-dot")
+of the target center relative to the observer. A positive "deldot" means the
+target center is moving away from the observer, negative indicates movement
+toward the observer.  Units: AU and KM/S
+ 
+ 'S-O-T /r' =
+   Sun-Observer-Target apparent SOLAR ELONGATION ANGLE seen from the observers'
+location at print-time.
+
+   The '/r' column provides a code indicating the targets' apparent position
+relative to the Sun in the observers' sky, as described below:
+
+   Case A: For an observing location on the surface of a rotating body, that
+body rotational sense is considered:
+
+    /T indicates target TRAILS Sun   (evening sky: rises and sets AFTER Sun)
+    /L indicates target LEADS Sun    (morning sky: rises and sets BEFORE Sun)
+
+   Case B: For an observing point that does not have a rotational model (such
+as a spacecraft), the "leading" and "trailing" condition is defined by the
+observers' heliocentric ORBITAL motion:
+
+    * If continuing in the observers' current direction of heliocentric
+       motion would encounter the targets' apparent longitude first, followed
+       by the Sun's, the target LEADS the Sun as seen by the observer.
+
+    * If the Sun's apparent longitude would be encountered first, followed
+       by the targets', the target TRAILS the Sun.
+
+   Two other codes can be output:
+    /* indicates observer is Sun-centered    (undefined)
+    /? Target is aligned with Sun center     (no lead or trail)
+
+   The S-O-T solar elongation angle is numerically the minimum separation
+angle of the Sun and target in the sky in any direction. It does NOT indicate
+the amount of separation in the leading or trailing directions, which would
+be defined along the equator of a spherical coordinate system.
+
+   Units: DEGREES
+ 
+ 'S-T-O' =
+   The Sun-Target-Observer angle; the interior vertex angle at target center
+formed by a vector from the target to the apparent center of the Sun (at
+reflection time on the target) and the apparent vector from target to the
+observer at print-time. Slightly different from true PHASE ANGLE (requestable
+separately) at the few arcsecond level in that it includes stellar aberration
+on the down-leg from target to observer.  Units: DEGREES
+ 
+ 'Sky_motion  Sky_mot_PA  RelVel-ANG' =
+  Total apparent angular rate of the target in the plane-of-sky. "Sky_mot_PA"
+is the position angle of the target's direction of motion in the plane-of-sky,
+measured counter-clockwise from the apparent of-date north pole direction.
+"RelVel-ANG" is the flight path angle of the target's relative motion with
+respect to the observer's line-of-sight, in the range [-90,+90], where positive
+values indicate motion away from the observer, negative values are toward the
+observer:
+
+  -90 = target is moving directly toward the observer
+    0 = target is moving at right angles to the observer's line-of-sight
+  +90 = target is moving directly away from the observer
+
+UNITS:  ARCSECONDS/MINUTE, DEGREES, DEGREES
+ 
+ 'Lun_Sky_Brt  sky_SNR' =
+  Sky brightness due to moonlight scattered by Earth's atmosphere at the
+target's position in the sky. "sky_SNR" is the visual signal-to-noise ratio
+(SNR) of the target's surface brightness relative to background sky. Output
+only for topocentric Earth observers when both the Moon and target are above
+the local horizon and the Sun is in astronomical twilight (or further) below
+the horizon, and the target is not the Moon or Sun. If all conditions are
+not met, "n.a." is output. Galactic brightness, local sky light-pollution
+and weather are NOT considered. Lunar opposition surge is considered. The
+value returned is accurate under ideal conditions at the approximately 8-23%
+level, so is a useful but not definitive value.
+
+  If the target-body radius is also known, "sky_SNR" is output. This is the
+approximate visual signal-to-noise ratio of the target's brightness divided
+by lunar sky brightness. When sky_SNR < 1, the target is dimmer than the
+ideal moonlight-scattering background sky, so unlikely to be detectable at
+visual wavelengths. In practice, visibility requires sky_SNR > 1 and a
+detector sensitive enough to reach the target's magnitude, even if it isn't
+washed out by moonlight. When relating magnitudes and brightness values,
+keep in mind their logarithmic relationship m2-m1 = -2.5*log_10(b2/b1).
+
+  UNITS: VISUAL MAGNITUDES / ARCSECOND^2, and unitless ratio
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+
+******************************************************************************************************************************************************************************
